@@ -21,4 +21,3 @@ def onDay(date, day):
     """
     days = (day - date.weekday() + 7) % 7
     return date + datetime.timedelta(days=days)
-
